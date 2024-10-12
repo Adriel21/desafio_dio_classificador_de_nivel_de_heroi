@@ -1,10 +1,10 @@
 let heroi = ["Satoro Gojo", 10001];
 let nivel;
-
-for (i=0; i<10001;i++){
+    
     if (heroi[1] <= 1000){
         nivel = "Ferro"
     } else if (heroi[1] >=1001 && heroi[1]<=2000){
+        console.log(i)
         nivel = "Bronze"
     } else if (heroi[1] >=2001 && heroi[1]<=5000){
         nivel = "Prata"
@@ -16,9 +16,10 @@ for (i=0; i<10001;i++){
         nivel = "Ascendente"
     } else if (heroi[1] >=9001 && heroi[1]<=10000){
         nivel = "Imortal"
-    } else if (heroi[1] >=10001){
+    } else {
         nivel = "Radiante"
     } 
-}
+
 
 console.log(`O Herói de nome ${heroi[0]} está no nível de ${nivel}`)
+
