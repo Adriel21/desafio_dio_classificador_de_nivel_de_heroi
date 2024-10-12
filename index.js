@@ -1,0 +1,24 @@
+let heroi = ["Satoro Gojo", 10001];
+let nivel;
+
+for (i=0; i<10001;i++){
+    if (heroi[1] <= 1000){
+        nivel = "Ferro"
+    } else if (heroi[1] >=1001 && heroi[1]<=2000){
+        nivel = "Bronze"
+    } else if (heroi[1] >=2001 && heroi[1]<=5000){
+        nivel = "Prata"
+    } else if (heroi[1] >=5001 && heroi[1]<=7000){
+        nivel = "Ouro"
+    } else if (heroi[1] >=7001 && heroi[1]<=8000){
+        nivel = "Platina"
+    } else if (heroi[1] >=8001 && heroi[1]<=9000){
+        nivel = "Ascendente"
+    } else if (heroi[1] >=9001 && heroi[1]<=10000){
+        nivel = "Imortal"
+    } else if (heroi[1] >=10001){
+        nivel = "Radiante"
+    } 
+}
+
+console.log(`O Herói de nome ${heroi[0]} está no nível de ${nivel}`)
